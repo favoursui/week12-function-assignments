@@ -7,7 +7,7 @@
 """
 count = 0
 def scope_count():
-	count += 1:
+	count += 1
 	return count
 scope_count()
 

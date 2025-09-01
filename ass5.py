@@ -6,9 +6,7 @@ Formula: perimeter = 4 * side
 """
 def perimeter_of_square(side):
 	return side * 4
-length = float(input("enter the length of your square: "))	
-perimeter = perimeter_of_square(length)
-print(f"the perimeter of a square with length {length} is: {perimeter}")
+print(perimeter_of_square(5))
 
 
 

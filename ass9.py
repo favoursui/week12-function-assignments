@@ -9,13 +9,11 @@ vowel_count = 0
 
 def vowel_counts(word):
 	return vowel_count
-words = input("enter a word to count vowels: ")
-for char in words:
+word = input("enter a word: ")	
+for char in word:
 	if char in vowels:
 		vowel_count += 1
-count = f"found a total of {vowel_counts(vowel_count)} vowels in '{words}'"
-print(count)	
-
+print(f"found {vowel_counts(vowel_count)} vowels in {word}")
 
 
 

@@ -6,11 +6,8 @@ Test the function by calling it with different numbers.
 """
 
 def numbers(a,b):
-	num1 = float(input("first number: "))
-	num2 = float(input("second number: "))
-	result = num1 + num2
-	return result
-print(numbers("a", "b"))	
+	return a+b
+print(numbers(1,2))	
 
 
 

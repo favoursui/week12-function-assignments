@@ -5,29 +5,13 @@
 """
 
 
-def start():
-	while True:
-		num = int(input("enter a number: "))
-		even(num)
-		odd(num)
-
-def even(num):
-	if num % 2 == 0:
-		print("even number")
-
-
-def odd(num):
-	if num % 2 != 0:
-		print("odd number")
-
-
-
-start()		
-
-
-
-
-
+def start(n):
+	if n % 2 == 0:
+		return "even number"
+	else:
+		return "odd number"
+print(start(7))			
+	
 
 
 
